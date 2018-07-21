@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/angular.min.js"></script>
+    <script src="directive1.js"></script>
+</head>
+<body>
+
+<div ng-app="myApp">
+    <div hello-world-a></div>
+    <hello-world-e></hello-world-e>
+    <div class="hello-world-c"></div>
+    <!-- directive:hello-world-m -->
+
+    <input type="text" ng-model="color" placeholder="Enter a color" />
+    <div hello-world-with-color></div>
+
+    <div hello-world-with-attr model="test" param="123" name="test123"></div>
+</div>
+
+
+</body>
+</html>
